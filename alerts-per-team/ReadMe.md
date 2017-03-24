@@ -98,7 +98,7 @@ integration) and paste it into the script as the value of the **opsGenieAPIKey**
 * If you've associated an API Key in API Gateway, enter a header in the **Custom Headers** field as
 follows:
     * Header: **x-api-key**
-    * Values: API Key given by API Gateway
+    * Value: API Key given by API Gateway
 * You can de-select the actions other than Create, Acknowledge and Close. The script will also
 ignore the other actions, but you may not want to send unnecessary actions to AWS.
 * You can select an **Alert Filter**, if you don't want to create sub-alerts from every alert.

@@ -163,7 +163,7 @@ def close_root_and_sub_alerts(alert_details, event):
     return results
 
 
-# Entry point of the program.
+# Entry point.
 def lambda_handler(event, context):
     action = event["action"]
     alert = get_alert(event["alert"]["alertId"])
